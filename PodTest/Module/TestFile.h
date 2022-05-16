@@ -11,7 +11,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TestFile : NSObject
 
-@property (nonatomic, strong) NSString * name;
+@property (nonatomic, copy) NSString * name;
+
+@property (nonatomic, copy) NSString * sex;
 
 @end
 
